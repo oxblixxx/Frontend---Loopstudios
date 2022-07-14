@@ -1,0 +1,239 @@
+:root{
+    --alata : alata;
+    --jossefin : josefin sans;
+    --dark : hsl(0, 0%, 55%);
+    --very : hsl(0, 0%, 41%);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color: hsl(0, 0%, 100%);
+    height: 100em;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+                                /* HEADER*/
+
+
+.header-content{
+    border: 2px white solid;
+    font-family: 'Josefin Sans';
+    width: 8.7em;
+    left: 142px;
+    top: 94px;
+    font-size: 60px;
+    line-height: 1;
+    padding: 28px;
+    /* width: 414px;
+    position: relative;
+    right: -38px;
+    bottom: 19px;
+    margin: 99px 0px 37px 191px;
+    padding: 80px; */
+    font-family: var(--jossefin);
+    /* font-size: 60px; */
+}
+
+.nav-items{
+    font-family: var(--alata);
+}
+
+.nav-items:hover{
+    text-decoration: underline;
+}
+
+#logo{
+    position: absolute;
+    left: 9em;
+}
+header{
+    background: url(../images/desktop/image-hero.jpg) no-repeat 100%;
+    height: 35em;
+}
+
+li{
+    flex-grow: 0.04;
+    list-style-type: none;
+}
+
+span{
+    color: white;
+
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px;
+}
+
+
+
+                            /*  VR */
+
+
+.vr-content{
+    background-color: white;
+    position: relative;
+    right: 149px;
+    top: 168px;
+    width: 30em;
+}
+
+.vr-section{
+    display: flex;
+    height: 60em;
+    font-family: var(--jossefin);
+    
+}
+
+.vr-words{
+    left: 105px;
+    position: relative;
+    top: 109px;
+    width: 30em;
+    font-family: var(--alata);
+    color: var(--dark);
+}
+
+figcaption{
+    display: flex;
+    height: 30em;
+    padding: 153px;
+    position: relative;
+    top: -57px;
+}
+
+h1{
+    font-family: var(--jossefin);
+    color: hsl(0, 0%, 0%);
+}
+
+p{
+    line-height: 1.8;
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+                                /* OUR CREATIONS */
+
+                         
+ .btn{
+    background-color: hsl(0, 0%, 100%);
+    bottom: -8px;
+    color: hsl(0, 0%, 0%);
+    padding: 11px;
+    position: absolute;
+    right: 112px;
+    text-align: center;
+    width: 140px;
+}
+
+.our-creation{
+    display: flex;
+}
+
+.our-creations{
+    bottom: 259px;
+    display: flex;
+    font-family: var(--jossefin);
+    height: 20px;
+    position: relative;
+}
+
+#our-header{
+    left: 150px;
+    position: absolute;
+}
+
+.btn:hover{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+                         /* IMAGE GALLERY */
+
+ .grid-image{
+    padding: 6px;
+}
+
+.image-gallery{
+    bottom: 165px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 132px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+h3{
+    color: hsl(0, 0%, 100%);
+    font-family: var(--jossefin);
+    left: 50px;
+    position: relative;
+    top: 82%;
+    letter-spacing: 3px;
+}
+
+
+                        /* FOOTER */
+
+
+footer{
+    background-color: hsl(0, 0%, 0%);
+    height: 13em;
+    color: white;
+    font-family: var(--alata);
+    position: relative;
+    top: 90px;
+    width: 160;
+    display: flex;
+    flex-direction: column;
+}
+
+.insta, .fb, .twitter, .pininterest {
+    flex-grow: 0.02;
+    position: relative;
+    right: 26px;
+}
+
+
+.footer-logo{
+    position: absolute;
+    left: 146px;
+
+}
+
+.footers{
+    position: relative;
+    bottom: 49px;
+}
+
+.footer-link{
+    position: relative;
+    right: 472px;
+}
+
+.copyright{
+    position: relative;
+    right: 26px;
+    font-family: var(--alata);
+}
+
+
+
+
+
