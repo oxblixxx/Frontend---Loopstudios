@@ -155,6 +155,7 @@ p{
 #our-header{
     left: 150px;
     position: absolute;
+    font-family: var(--jossefin);
 }
 
 .btn:hover{
@@ -198,7 +199,7 @@ footer{
     color: white;
     font-family: var(--alata);
     position: relative;
-    top: 90px;
+    top: 70px;
     width: 160;
     display: flex;
     flex-direction: column;
@@ -224,13 +225,14 @@ footer{
 
 .footer-link{
     position: relative;
-    right: 472px;
+    right: 432px;
 }
 
 .copyright{
     position: relative;
     right: 26px;
     font-family: var(--alata);
+    color: var(--very)
 }
 
 
